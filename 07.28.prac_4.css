@@ -1,0 +1,93 @@
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+ .main_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .left_container{
+   width : 500px;
+   height : 250px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+ }
+
+ .text_mention1{
+  margin: 10px;
+  padding: 1px;
+  font-size: 30px;
+  font-weight: bold; color: rgb(58, 53, 53);
+
+ }
+
+ .text_mention2{
+  margin: 10px;
+  padding: 1px;
+  font-size: 15px; color: rgb(8, 29, 51);
+
+ }
+
+ .text_mention3{
+  margin: 10px;
+  /* padding: 1px; */
+  font-size: 10px; color: rgb(43, 127, 236);
+  font-weight: bold;
+
+ }
+
+
+
+ .card_container{
+   width: 400px;
+   height: 500px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+ .card_box{
+    margin-bottom: 10px;
+    width: 400px;
+    height: 70px;
+    box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09) ; 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-radius: 10px;
+
+ }
+
+ .card_left{
+  margin: 20px;
+  padding: 1px;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+}
+
+ .card_ment{
+  margin: 5px;
+  padding: 1px;
+}
+
+ .card_right{
+  margin: 20px ;
+  padding: 1px;
+  font-weight: bold;
+
+}
+
+  img {
+    width: 30px;
+    margin: 3px;
+    margin-right: 5px;
+    padding: 3px;
+  }
